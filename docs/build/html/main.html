@@ -1,0 +1,124 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Общая информация. Отображение данных. &#8212; Документация sphinxproject 1</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/translations.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Алфавитный указатель" href="genindex.html" />
+    <link rel="search" title="Поиск" href="search.html" />
+    <link rel="next" title="Это пример" href="example2.html" />
+    <link rel="prev" title="Добро пожаловать в документацию мобильного приложения по работе с базой данных!" href="index.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <p><a class="reference external" href="index.html">Перейти на главную страницу</a>.</p>
+<div class="section" id="id2">
+<h1>Общая информация. Отображение данных.<a class="headerlink" href="#id2" title="Ссылка на этот заголовок">¶</a></h1>
+<p>Программа представляет собой небольшое мобильное приложение на операционной системе Android, которое позволяет работать с базой данных железнодорожной станции.</p>
+<p>В программе реализованы функции отображения, изменения, добавления и удаления данных.</p>
+<p>Рекомендуется использовать Android 4.4 и более поздние версии.</p>
+<p>При запуске приложения пользователь видеть перед собой экран приветствия с просьбой выбрать таблицу для работы в меню справа вверху.</p>
+<div class="figure align-center" id="id4">
+<a class="reference internal image-reference" href="_images/main.png"><img alt="_images/main.png" src="_images/main.png" style="width: 324.0px; height: 576.0px;" /></a>
+<p class="caption"><span class="caption-text">Рис.1 Экран приветствия</span></p>
+</div>
+<p>Меню состоит из двух пунктов, каждый из которых соответствует определенной таблице в базе данных. В данном приложении реализованы две таблицы: «Сотрудники» и «Отделы».</p>
+<div class="figure align-center" id="id5">
+<a class="reference internal image-reference" href="_images/menu.png"><img alt="_images/menu.png" src="_images/menu.png" style="width: 324.0px; height: 576.0px;" /></a>
+<p class="caption"><span class="caption-text">Рис.2 Меню</span></p>
+</div>
+<p>При нажатии на пункт меню, который соответствует определенной таблице, пользователь видит экран с данными из таблицы, а также кнопку для добавления новой записи. Например, при выборе таблицы «Сотрудники» появляется экран со списком сотрудников (имя и фамилия сотрудника), а также кнопка которая позволяет добавить нового сотрудника.</p>
+<div class="figure align-center" id="id6">
+<a class="reference internal image-reference" href="_images/table.png"><img alt="_images/table.png" src="_images/table.png" style="width: 324.0px; height: 576.0px;" /></a>
+<p class="caption"><span class="caption-text">Рис.3 Таблица «Сотрудники»</span></p>
+</div>
+<p>Для перехода на другую таблицу необходимо выбрать соответсвующий пункт меню. Это можно сделать внутри таблицы, переходить на главный экран необязательно. Меню есть на каждом экране с таблицей.</p>
+<div class="figure align-center" id="id7">
+<a class="reference internal image-reference" href="_images/departments.png"><img alt="_images/departments.png" src="_images/departments.png" style="width: 324.0px; height: 576.0px;" /></a>
+<p class="caption"><span class="caption-text">Рис.4 Таблица «Отделы»</span></p>
+</div>
+<p>Для возврата на предыдущий экран необходимо нажать на кнопку «Назад».</p>
+<p>Для отображения большего количества данных о записи необходимо нажать на соответсвующую запись. Например, для подробной информации о сотруднике (не только имя и фамилия, а также возраст и заработная плата) «Иван Иванов» нужно нажать на запись «Иван Иванов» и отобразится подробная информация.</p>
+<div class="figure align-center" id="id8">
+<a class="reference internal image-reference" href="_images/info.png"><img alt="_images/info.png" src="_images/info.png" style="width: 324.0px; height: 576.0px;" /></a>
+<p class="caption"><span class="caption-text">Рис.4 Информация о сотруднике «Иван Иванов»</span></p>
+</div>
+<p><a class="reference external" href="index.html">Перейти на главную страницу</a>.</p>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="index.html" title="предыдущая глава">Добро пожаловать в документацию мобильного приложения по работе с базой данных!</a></li>
+      <li>Next: <a href="example2.html" title="следующая глава">Это пример</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Быстрый поиск</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Искать" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2018, Vladimir.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.6.6</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
+      
+      |
+      <a href="_sources/main.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
